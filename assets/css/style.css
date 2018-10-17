@@ -1,0 +1,76 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+
+  }
+  
+.content {
+      background-color: #ffe0cf;
+      color:#373737;
+}
+
+.site-header,
+.footer {
+    background-color: #e5dbcf;
+    color: #373737;
+}
+
+.footer-link {
+    padding-right: 0.5em;
+    color: #373737;
+}
+
+.portfolio {
+    background-color:#FFF;
+    color:#373737;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+
+.card  {
+    border-radius: .4em .4em .4em .4em;
+}
+
+.card-header {
+    border-radius: .4em .4em 0 0;
+}
+
+.card-footer {
+    border-radius: 0 0 .4em .4em;
+}
+
+.has-background-cream {
+    background-color: #e5dbcf;
+}
+
+.message-body-text,
+.about-me-modal-button,
+.send-message-modal-button,
+.portfolio-link {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8rem;
+    color: #373737;
+}
+
+
+.portfolio-content {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 1em;
+}
+
+.form-content {
+    font-family: 'Varela Round', sans-serif;
+}
