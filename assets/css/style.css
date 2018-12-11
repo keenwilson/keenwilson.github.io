@@ -39,6 +39,10 @@ body {
     color: #373737;  
 }
 
+.navbar-dropdown:hover {
+    background-color: #e5dbcf
+}
+
 .avatar {
     vertical-align: middle;
     max-width: 10rem;
@@ -86,4 +90,9 @@ body {
 
 .form-content {
     font-family: 'Varela Round', sans-serif;
+}
+
+#tab-portfolio {
+    width: 172px;
+    height: 36px;
 }
