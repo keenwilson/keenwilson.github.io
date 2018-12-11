@@ -38,7 +38,23 @@
                             <span></span>
                         </span>
                     </div>
+                    <div id="navbarMenuHeroC" class="navbar-menu">
+                        <div class="navbar-start is-transparent">
+                            <div class="navbar-item has-dropdown is-hoverable">
 
+                            <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item launch-about-me-modal hvr-grow-navbar" href="#">
+                                    About Me
+                                </a>
+                                <a class="navbar-item hvr-grow-navbar" href="#portfolio">
+                                    Recent Works
+                                </a>
+                                <a class="navbar-item hvr-grow-navbar" href="#keep-in-touch">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </header>
         </div>
@@ -146,7 +162,7 @@
                         <article class="message has-background-cream">
                             <div class="message-body message-body-text">
                                 Technical web dev skills consisted of HTML5, CSS, Bootstrap,
-                                JavaScript, jQuery, Node.js, mySQL, React, and and Responsive Web Design.
+                                JavaScript, jQuery, Node.js, MySQL, MongoDB, Express, React, Vue, and and Responsive Web Design.
                             </div>
                         </article>
                         <article class="message has-background-cream">
@@ -187,35 +203,28 @@
                 <!-- Feature project line -->
                 <div class="columns">
                     <div class="column">
-                        <!-- Mali Thai Bistro -->
+                        <!-- Christmas List -->
                         <div class="card has-background-white-bis">
                             <header class="card-header has-background-white-ter">
-                                <h3 class="card-header-title hvr-grow">
-                                    <span><i class="far fa-star hvr-grow"></i> Mali Thai Bistro</span>
+                                <h3 class="card-header-title">
+                                    <span><i class="far fa-star"></i> Christmas List</span>
 
                                 </h3>
 
                             </header>
                             <div class="card-content">
                                 <figure class="image is-16by9">
-                                    <img class="launch-image-modal" src="assets/img/portfolio-mali-thai-bistro-new-bg.png"
-                                        alt="Mali Thai Bistro">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-christmaslist.png" alt="Christmas List">
                                 </figure>
                                 <div class="content portfolio-content has-background-white-bis">
                                     <p>
-                                        Mali Thai Bistro is a family-owned traditional Thai restaurant founded in 2015,
-                                        serving authentic Thai cuisine in Lee's Summit, MO. Even though they earned
-                                        popularity on Facebook, TripAdvisor, and Yelp reviews, the restaurant did not
-                                        have an official website. Oftentimes, customers could not figure out the menu
-                                        list online before they actually arrive in-person at the restaurant.
+                                        A Vue.js/Express.js web application for creating a Christmas list by searching items from product catalog and save those items to a list on MySQL Database. 
+                                        The user can <strong>register</strong> their username, email address, and password following the validation rules. If the account is created, the user can log in to their Christmas list,
+                                        <strong>search</strong> for items they want to include in their list using the search panel. The user can <strong>add</strong> or <strong>remove</strong> the item from their saved items list.
                                         <br>
                                         <br>
-                                        This Single Page Application (SPA) is "mobile-first" designed i.e., <br>
-                                        a collapsible navbar and a responsive menu section making this web easy-to-read
-                                        on small screens. In order to meet the user's expectation when they check the
-                                        restaurant's website, this web app integrates the restaurant's location from
-                                        Google Maps, news and events update from Facebook page, and a floating 'scroll
-                                        to top' arrow-up button for easy navigation.
+                                        This app also have User Authentication for registration and login powered by <code>Passport</code>, <code>JSON Web Tokens (JWTs)</code> and <code>Bcrypt-nodejs</code>.
+                                        <br>
 
                                     </p>
 
@@ -223,34 +232,42 @@
                                 <div class="field is-grouped-multiline">
                                     <div class="control">
                                         <div class="tags">
+                                            <a class="tag is-dark">State Management</a>
+                                            <a class="tag is-dark">User Authentication</a>
                                             <a class="tag is-dark">Responsive Web Design</a>
-                                            <a class="tag is-primary">HTML/CSS</a>
-                                            <a class="tag is-success">Bulma</a>
-                                            <a class="tag is-info">JavaScript</a>
-
-
+                                            <a class="tag is-primary">Vue Js</a>
+                                            <a class="tag is-success">Vuex</a>
+                                            <a class="tag is-success">Vuex-router-sync</a>
+                                            <a class="tag is-success">Vuetify</a>
+                                            <a class="tag is-info">Axios</a>
+                                            <a class="tag is-info">Morgan</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">Express Js</a>
+                                            <a class="tag is-warning">MySQL</a>
+                                            <a class="tag is-danger">Passport</a>
+                                            <a class="tag is-danger">JSON Web Tokens</a>
+                                            <a class="tag is-danger">Bcrypt-nodejs</a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://github.com/keenwilson/mali-thai-bistro" target="_blank" class="card-footer-item portfolio-link">
+                                <a href="https://github.com/keenwilson/ChristmasList" target="_blank" class="card-footer-item portfolio-link">
                                     <p><i class="fab fa-github"></i> View Source</p>
                                 </a>
-                                <a href="https://keenwilson.com/mali-thai-bistro/" target="_blank" class="card-footer-item portfolio-link">
+                                <a href="https://tbl-christmas-wishlist.herokuapp.com/" target="_blank" class="card-footer-item portfolio-link">
                                     Live Preview</a>
                             </footer>
                         </div>
-                        <!-- End Mali Thai Bistro -->
-
+                        <!-- End What's For Dinner? -->
+                        
                     </div>
                     <div class="column">
                         <!-- What's For Dinner? -->
                         <div class="card has-background-white-bis">
                             <header class="card-header has-background-white-ter">
-                                <h3 class="card-header-title hvr-grow">
-                                    <span><i class="far fa-star hvr-grow"></i> What's For Dinner?</span>
+                                <h3 class="card-header-title">
+                                    <span><i class="far fa-star"></i> What's For Dinner?</span>
 
                                 </h3>
 
@@ -276,13 +293,6 @@
                                         login
                                         and save recipes to Firebase database.
                                         <br>
-                                        <br>
-                                        Our team used Github with 120+ commits in 1.5 weeks along with Slack and Trello
-                                        for communication and project management.
-                                        We applied an MVC architecture by creating separate Javascript file for
-                                        different tasks. This helped separate concerns, organize the codebase,
-                                        and streamline the communication between all parties.
-
                                     </p>
 
                                 </div>
@@ -317,65 +327,55 @@
                 <!-- My recent work Line -->
                 <div class="columns">
                     <div class="column">
-                        <!-- Item -->
-                    </div>
-                    <div class="column">
-                        <!-- Item -->
-                    </div>
-                    <div class="column">
-                        <!-- Item -->
-                        <!-- Playdate Friend Finder -->
-                        <div class="card has-background-white-bis">
+                         <!-- Mali Thai Bistro -->
+                         <div class="card has-background-white-bis">
                             <header class="card-header has-background-white-ter">
                                 <h3 class="card-header-title">
-                                    <span>Eat the Burger!</span>
+                                    <span><i class="far fa-star"></i> Mali Thai Bistro</span>
+
                                 </h3>
 
                             </header>
                             <div class="card-content">
                                 <figure class="image is-16by9">
-                                    <img class="launch-image-modal" src="assets/img/portfolio-burger.png"
-                                        alt="Playdate Friend Finder">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-mali-thai-bistro-new-bg.png"
+                                        alt="Mali Thai Bistro">
                                 </figure>
                                 <div class="content portfolio-content has-background-white-bis">
                                     <p>
-                                        A burger logger utilizes <code>MySQL</code>, <code>Express</code>, and <code>Handlebars</code> to allow users to create, update, and read burgers from the database.
-
+                                        This Single Page Application (SPA) is "mobile-first" designed such as 
+                                        a collapsible navbar and a responsive menu section making this web <strong>searchable</strong> and <strong>easy-to-read
+                                                on small screens</strong>. In order to meet the user's expectation when they check the
+                                        restaurant's website, this web app integrates the restaurant's location from
+                                        Google Maps, news and events update from Facebook page, and a floating 'scroll
+                                        to top' arrow-up button for easy navigation.
                                     </p>
 
                                 </div>
                                 <div class="field is-grouped-multiline">
                                     <div class="control">
                                         <div class="tags">
+                                            <a class="tag is-dark">Responsive Web Design</a>
                                             <a class="tag is-primary">HTML/CSS</a>
-                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-success">Bulma</a>
                                             <a class="tag is-info">JavaScript</a>
-                                            <a class="tag is-link">AJAX</a>
-                                            <a class="tag is-link">API</a>
-                                            <a class="tag is-warning">Node Js</a>
-                                            <a class="tag is-warning">Express</a>
-                                            <a class="tag is-warning">ORM</a>
-                                            <a class="tag is-dark">MVC Framework</a>
+
+
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://github.com/keenwilson/burger" target="_blank" class="card-footer-item portfolio-link">
+                                <a href="https://github.com/keenwilson/mali-thai-bistro" target="_blank" class="card-footer-item portfolio-link">
                                     <p><i class="fab fa-github"></i> View Source</p>
                                 </a>
-                                <a href="https://fierce-island-73401.herokuapp.com" target="_blank" class="card-footer-item portfolio-link">
+                                <a href="https://keenwilson.com/mali-thai-bistro/" target="_blank" class="card-footer-item portfolio-link">
                                     Live Preview</a>
                             </footer>
                         </div>
-                        <!-- End Playdate Friend Finder -->
+                        <!-- End Mali Thai Bistro -->
                     </div>
-                </div>
-
-
-                <!-- My recent work Line 1 -->
-                <div class="columns">
                     <div class="column">
                         <!-- Item -->
                         <!-- Playdate Friend Finder -->
@@ -431,7 +431,70 @@
                         </div>
                         <!-- End Playdate Friend Finder -->
                     </div>
-                    <!-- Item -->
+                    <div class="column">
+                        <!-- Item -->
+                        <!-- Playdate Friend Finder -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Eat the Burger!</span>
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-burger.png"
+                                        alt="Playdate Friend Finder">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A burger logger utilizes <code>MySQL</code>, <code>Express</code>, and <code>Handlebars</code> to allow users to create, update, and read burgers from the database.
+
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">AJAX</a>
+                                            <a class="tag is-link">API</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">Express</a>
+                                            <a class="tag is-warning">ORM</a>
+                                            <a class="tag is-dark">MVC Framework</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/burger" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://fierce-island-73401.herokuapp.com" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Playdate Friend Finder -->
+                    </div>
+                </div>
+
+
+                <!-- My recent work Line 1 -->
+                <br>
+                <br>
+                <!-- Featured project -->
+                <h2 class="subtitle has-text-weight-light has-text-centered">
+                    Command line interface (CLI) Apps
+                </h2>
+                <p class="has-text-weight-light has-text-centered">
+                    Screenshots and gifs showing the app working with no bugs could be found on GitHub pages.
+                </p>
+                <br>
+                <div class="columns">
                     <div class="column">
                         <!-- Bamazon -->
                         <div class="card has-background-white-bis">
@@ -523,54 +586,66 @@
                         <!-- End Constructor-Word-Guess -->
 
                     </div>
-
-                </div>
-                <!-- My recent work Line 2 -->
-                <div class="columns">
                     <div class="column">
-                        <!-- Item 1 -->
+                        <!-- Item -->
                         <!-- LIRI NODE APP -->
                         <div class="card has-background-white-bis">
-                            <header class="card-header has-background-white-ter">
-                                <h3 class="card-header-title">
-                                    <span>LIRI Node Application</span>
+                                <header class="card-header has-background-white-ter">
+                                    <h3 class="card-header-title">
+                                        <span>LIRI Node Application</span>
 
-                                </h3>
+                                    </h3>
 
-                            </header>
-                            <div class="card-content">
-                                <figure class="image is-16by9">
-                                    <img class="launch-image-modal" src="assets/img/portfolio-liri-node-app.gif" alt="LIRI Node Application">
-                                </figure>
-                                <div class="content portfolio-content has-background-white-bis">
-                                    <p>
-                                        An interactive Node-based command-line (CLI) application that will search
-                                        Spotify for songs, Bands in Town for concerts, and OMDB for movies
-                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <figure class="image is-16by9">
+                                        <img class="launch-image-modal" src="assets/img/portfolio-liri-node-app.gif" alt="LIRI Node Application">
+                                    </figure>
+                                    <div class="content portfolio-content has-background-white-bis">
+                                        <p>
+                                            An interactive Node-based command-line (CLI) application that will search
+                                            Spotify for songs, Bands in Town for concerts, and OMDB for movies
+                                        </p>
 
-                                </div>
-                                <div class="field is-grouped-multiline">
-                                    <div class="control">
-                                        <div class="tags">
-                                            <a class="tag is-info">JavaScript</a>
-                                            <a class="tag is-info">RESTful API</a>
-                                            <a class="tag is-info">AJAX</a>
-                                            <a class="tag is-warning">Node Js</a>
-                                        </div>
                                     </div>
+                                    <div class="field is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags">
+                                                <a class="tag is-info">JavaScript</a>
+                                                <a class="tag is-info">RESTful API</a>
+                                                <a class="tag is-info">AJAX</a>
+                                                <a class="tag is-warning">Node Js</a>
+                                            </div>
+                                        </div>
 
+                                    </div>
                                 </div>
+                                <footer class="card-footer">
+                                    <a href="https://github.com/keenwilson/liri-node-app" target="_blank" class="card-footer-item portfolio-link">
+                                        <p><i class="fab fa-github"></i> View Source</p>
+                                    </a>
+
+                                </footer>
                             </div>
-                            <footer class="card-footer">
-                                <a href="https://github.com/keenwilson/liri-node-app" target="_blank" class="card-footer-item portfolio-link">
-                                    <p><i class="fab fa-github"></i> View Source</p>
-                                </a>
-
-                            </footer>
-                        </div>
-                        <!-- End LIRI NODE APP -->
+                            <!-- End LIRI NODE APP -->
+                            
                     </div>
+                    <!-- Item -->
 
+                </div>
+
+                <!-- My recent work Line 2 -->
+                <br>
+                <br>
+                <!-- Featured project -->
+                <h2 class="subtitle has-text-weight-light has-text-centered">
+                    Dynamic Browser-based Apps
+                </h2>
+                <p class="has-text-weight-light has-text-centered">
+                    Implementing JavaScript logic, user interface (UI) design, object-oriented programming (OOP), and state management
+                </p>
+                <br>
+                <div class="columns">
                     <div class="column">
                         <!-- Item 2 -->
                         <!-- Rock-Paper-Scissors Multiplayer -->
@@ -897,7 +972,7 @@
     <!-- Keep in touch -->
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer id="keep-in-touch" class="footer">
         <div class="content has-text-centered has-background-cream">
             <h1 class="title has-text-weight-light has-text-centered">
                 Keep in touch
@@ -933,6 +1008,7 @@
     <script src="assets/javascript/app.js"></script>
     <script src="assets/javascript/typewriting.js"></script>
     <script src="assets/javascript/scrollup.js"></script>
+    <script src="assets/javascript/navbar.js"></script>
 </body>
 
 </html>

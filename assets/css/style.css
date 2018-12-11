@@ -29,6 +29,15 @@ body {
     color:#373737;
 }
 
+.navbar-item a:hover {
+    color: #373737;
+}
+
+.navbar-menu,
+.navbar-dropdown {
+    background-color: #e5dbcf;
+    color: #373737;  
+}
 
 .avatar {
     vertical-align: middle;
@@ -36,8 +45,12 @@ body {
     max-height: 10rem;
     border-radius: 50%;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
+.launch-image-modal {
+    cursor: pointer;
+}
 
 .card  {
     border-radius: .4em .4em .4em .4em;
