@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keen Wilson | Web Developer</title>
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Varela+Round" rel="stylesheet">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <!-- Link Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!-- Link Customized CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/scrollup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/growingIcon.css" type="text/css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo-kw.png">
+    <meta name="author" content="Keen Wilson">
+    <meta name="description" content="A personal website and portfolio of Keen Wilson, a web developer in Kansas City area">
+    <name="keywords" content="Keen Wilson, Web Developer, Front end, JavaScript, CSS, HTML, Code, Application Developer, Front end developer, Back end developer, Marketing, Deigital marketing">
+</head>
+
+<body>
+
+    <section class="hero site-header is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <figure class="image is-64x64">
+                            <img class="is-rounded hvr-grow" src="assets/img/logo-kw.png" alt="logo">
+                        </figure>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroC" class="navbar-menu">
+                        <div class="navbar-start is-transparent">
+                            <div class="navbar-item has-dropdown is-hoverable">
+
+                            <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item launch-about-me-modal" href="#">
+                                    About Me
+                                </a>
+                                <a class="navbar-item" href="#portfolio">
+                                    Recent Works
+                                </a>
+                                <a class="navbar-item" href="#keep-in-touch">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title has-text-weight-light">
+                    <p><i class="fas fa-laptop-code hvr-grow"></i></p>
+                    <p href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Keen.", "I am Web Developer.", "I Love Coding.", "Sawasdeeka !" ]'>
+                        <span class="wrap"></span>
+                    </p>
+                </h1>
+                <br>
+                <h2 class="subtitle has-text-weight-light">
+                    Hi, I'm Keen. Nice to meet you. <i class="far fa-smile-wink hvr-grow"></i> <br>
+                    I am Web Developer specializing in JavaScript MERN stack (Mongo, Express, React and Node.js)
+                    <br> with a background in brand management, and marketing.
+                    <br>
+                    <br>
+
+                </h2>
+                <h3 class="subtitle has-text-weight-light">Click my picture below to learn more about me ! <i class="far fa-hand-point-down hvr-grow"></i></h3>
+                <div class="level">
+                    <div class="level-item">
+                        <figure class="image launch-about-me-modal">
+                            <img class="is-rounded avatar" src="assets/img/keencwilson-profile.jpg" alt="logo">
+                        </figure>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+            <nav class="tabs is-centered is-boxed is-fullwidth">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-2">
+                            <a id="tab-portfolio" href="#portfolio" class="button is-rounded">
+                                <span class="icon is-small hvr-grow"><i class="far fa-folder-open" aria-hidden="true"></i></span>
+                                <span class="hvr-grow">Portfolio</span>
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- About Me Modal -->
+    <div id="about-me-modal" class="modal has-background-white-bis">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <h3 class="modal-card-title has-background-white-ter">About Me</h3>
+                <button class="delete about-me-delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body has-background-white-bis">
+                <div class="level">
+                    <div class="level-item">
+                        <figure class="image launch-about-me-modal">
+                            <img class="is-rounded avatar" src="assets/img/keencwilson-profile.jpg" alt="logo">
+                        </figure>
+                    </div>
+                    <div>
+                        <article class="message has-background-cream">
+                            <div class="message-body message-body-text">
+                                <p class="subtitle is-6 has-text-weight-light has-text-centered">Summary</p>
+                                <p>Software Developer specializing in JavaScript MERN stack (Mongo, Express, React and Node.js)
+                                    with a background in brand management, and marketing.
+                                    <br>
+                                    <br>
+                                    Enjoy building
+                                        user-focus web applications, solving complicated problems, and being part of
+                                        collaborative teams.</p>
+                            </div>
+                        </article>
+                        <article class="message has-background-cream">
+                            <div class="message-body message-body-text">
+                                <p class="subtitle is-6 has-text-weight-light has-text-centered">Education</p>
+                                <p>Holds an MBA with an emphasis on Marketing from the University of North Carolina and
+                                    graduated from the University of Kansas
+                                    Full Stack Web Development Coding Boot Camp.</p>
+                            </div>
+                        </article>
+                        <article class="message has-background-cream">
+                            <div class="message-body message-body-text">
+                                <p class="subtitle is-6 has-text-weight-light has-text-centered">Technical Skills</p>
+                                <ul>
+                                    <li><strong>Web development:</strong> HTML5, CSS3, JavaScript, Node.js, Express</li>
+                                    <li><strong>Client-side JavaScript:</strong> React, React Native, Vue.js, Angular for user interfaces and RESTful API communications</li>
+                                    <li><strong>Database relationships and modeling:</strong> MySQL, Firebase (NoSQL), MongoDB</li>
+                                    <li><strong>User Authentication:</strong> OAuth, Passport, JSON Web Tokens, Bcrypt</li>
+                                    <li><strong>Popular libraries:</strong> jQuery, Bootstrap, Bulma, Vuex, Vuetify, Mongoose, Sequelize</li>
+                                    <li><strong>Others:</strong> ESLint, MVC, Version Control, Git, Github, Heroku, Search Engine Optimization (SEO), Semantic HTML, WCAG 2.1, Responsive Web Design, Google Analytics, Visual Studio Code, and Adobe Photoshop</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="message  has-background-cream">
+                            <div class="message-body message-body-text">
+                                <p class="subtitle is-6 has-text-weight-light has-text-centered">Relevant Experience</p>
+                                <p>Experienced Account Manager for over eight years at a top global advertising agency. Have led cross-functional teams on projects
+                                    which created promotional materials for consumer goods clients, and involved Social
+                                    Media Marketing, and Search Engine Optimization (SEO).</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+            </section>
+            <footer class="modal-card-foot has-background-white-ter">
+                <button id="my-recent-work" class="button is-rounded about-me-modal-button">View My Recent Work</button>
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="hero portfolio has-background-cream">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-weight-light has-text-centered">
+                    My Recent Work
+                </h1>
+                <br>
+                <br>
+                <!-- Featured project -->
+                <h2 class="subtitle has-text-weight-light has-text-centered">
+                    Featured Projects
+
+
+                </h2>
+
+                <!-- Feature project line -->
+                <div class="columns">
+                        <div class="column">
+                                <!-- NYT Scraper -->
+                                <div class="card has-background-white-bis">
+                                    <header class="card-header has-background-white-ter">
+                                        <h3 class="card-header-title">
+                                            <span><i class="far fa-star"></i> The New York Times Scraper</span>
+        
+                                        </h3>
+        
+                                    </header>
+                                    <div class="card-content">
+                                        <figure class="image is-16by9">
+                                            <img class="launch-image-modal" src="assets/img/portfolio-NYTscraper.png" alt="The New York Times Scraper">
+                                        </figure>
+                                        <div class="content portfolio-content has-background-white-bis">
+                                            <p>
+                             
+A web app utilizes <code>mongoDB</code>, <code>Mongoose</code>, <code>cheerio</code>, and <code>express</code> to let the user view and leave comments on the latest news.
+        <br><br>Whenever a user visits the site, the user can use a scraping tool to scrape stories from a news outlet, which is The New York TImes in this app. The user can select which section of NYT that they want to review: U.S., Business, Technology, Travel, and Style.</p>
+                                        </div>
+                                        <div class="field is-grouped-multiline">
+                                            <div class="control">
+                                                <div class="tags">
+                                                    
+                                                    <a class="tag is-dark">Responsive Web Design</a>
+                                                    <a class="tag is-primary">Handlebars</a>
+                                                    <a class="tag is-info">Axios</a>
+                                                    <a class="tag is-info">Cheerio</a>
+                                                    <a class="tag is-warning">Node Js</a>
+                                                    <a class="tag is-warning">Express Js</a>
+                                                    <a class="tag is-warning">MongoDB</a>
+                                                    <a class="tag is-warning">Mongoose</a>
+                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <a href="https://github.com/keenwilson/NYT-Scraper-Node-Express-Mongoose" target="_blank" class="card-footer-item portfolio-link">
+                                            <p><i class="fab fa-github"></i> View Source</p>
+                                        </a>
+                                        <a href="https://fast-caverns-15278.herokuapp.com/" target="_blank" class="card-footer-item portfolio-link">
+                                            Live Preview</a>
+                                    </footer>
+                                </div>
+                                <!-- End <!-- NYT Scraper --> 
+                                
+                            </div>
+                    <div class="column">
+                        <!-- Christmas List -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span><i class="far fa-star"></i> Christmas List</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-christmaslist.png" alt="Christmas List">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A Vue.js/Express.js web application for creating a Christmas list by searching items from product catalog and save those items to a list on MySQL Database. 
+                                        The user can <strong>register</strong> their username, email address, and password following the validation rules. If the account is created, the user can log in to their Christmas list,
+                                        <strong>search</strong> for items they want to include in their list using the search panel. The user can <strong>add</strong> or <strong>remove</strong> the item from their saved items list.
+                                        <br>
+                                        <br>
+                                        This app also have User Authentication for registration and login powered by <code>Passport</code>, <code>JSON Web Tokens (JWTs)</code> and <code>Bcrypt-nodejs</code>.
+                                        <br>
+
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-dark">State Management</a>
+                                            <a class="tag is-dark">User Authentication</a>
+                                            <a class="tag is-dark">Responsive Web Design</a>
+                                            <a class="tag is-primary">Vue Js</a>
+                                            <a class="tag is-success">Vuex</a>
+                                            <a class="tag is-success">Vuex-router-sync</a>
+                                            <a class="tag is-success">Vuetify</a>
+                                            <a class="tag is-info">Axios</a>
+                                            <a class="tag is-info">Morgan</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">Express Js</a>
+                                            <a class="tag is-warning">MySQL</a>
+                                            <a class="tag is-danger">Passport</a>
+                                            <a class="tag is-danger">JSON Web Tokens</a>
+                                            <a class="tag is-danger">Bcrypt-nodejs</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/ChristmasList-Vue-Express-Passport" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://tbl-christmas-wishlist.herokuapp.com/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Christmas List -->
+                        
+                    </div>
+                    <div class="column">
+                        <!-- What's For Dinner? -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span><i class="far fa-star"></i> What's For Dinner?</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-whats-for-dinner.png" alt="What's For Dinner?">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A meal plan generator browser-based app that allows the user to save searched
+                                        recipes to weekly meal planner.
+
+                                        This app is developed because busy parents often run out of ideas what to feed
+                                        their children for dinner, and other caregivers have no clue what the meal plan
+                                        is. In addition, keywords about kid-friendly dinner ideas and meal planning are
+                                        frequently searched for in google.
+                                        <br>
+                                        <br>
+                                        I designed modern-looking UI by implementing Bulma, Google Web Fonts, Font
+                                        Awesome, and “modal” like alerts. I wrote JavaScript code that allow the user
+                                        to add/edit/remove data on the weekly planner template, and register their
+                                        login
+                                        and save recipes to Firebase database.
+                                        <br>
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-dark">Responsive Web Design</a>
+                                            <a class="tag is-primary">HTML/CSS</a>
+                                            <a class="tag is-success">Bulma</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">jQuery</a>
+                                            <a class="tag is-link">AJAX</a>
+                                            <a class="tag is-warning">Firebase</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/WhatsForDinner-WeeklyMealPlanner" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="http://keenwilson.com/WhatsForDinner-WeeklyMealPlanner/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End What's For Dinner? -->
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- My recent work Line -->
+                <div class="columns">
+                    <div class="column">
+                         <!-- Mali Thai Bistro -->
+                         <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span><i class="far fa-star"></i> Mali Thai Bistro</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-mali-thai-bistro-new-bg.png"
+                                        alt="Mali Thai Bistro">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        This Single Page Application (SPA) is "mobile-first" designed such as 
+                                        a collapsible navbar and a responsive menu section making this web <strong>searchable</strong> and <strong>easy-to-read
+                                                on small screens</strong>. In order to meet the user's expectation when they check the
+                                        restaurant's website, this web app integrates the restaurant's location from
+                                        Google Maps, news and events update from Facebook page, and a floating 'scroll
+                                        to top' arrow-up button for easy navigation.
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-dark">Responsive Web Design</a>
+                                            <a class="tag is-primary">HTML/CSS</a>
+                                            <a class="tag is-success">Bulma</a>
+                                            <a class="tag is-info">JavaScript</a>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/mali-thai-bistro" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.com/mali-thai-bistro/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Mali Thai Bistro -->
+                    </div>
+                    <div class="column">
+                        <!-- Item -->
+                        <!-- Playdate Friend Finder -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Playdate Friend Finder</span>
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-friendfinder-survey.png"
+                                        alt="Playdate Friend Finder">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+
+                                        A full-stack compatibility-based Playdate Friend Finder application, basically
+                                        a dating app for mommy friends, that utilized a basic survey, implemented <code>Express</code>
+                                        to handle
+                                        routing that makes that data and logic accessible, and deployed to <code>Heroku</code>
+                                        so
+                                        other users can use it
+
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-dark">Responsive Web Design</a>
+                                            <a class="tag is-primary">HTML/CSS</a>
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">AJAX</a>
+                                            <a class="tag is-link">API</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">Express</a>
+                                            <a class="tag is-danger">RegEx</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/FriendFinder-Survey-Node-Express" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://guarded-fortress-95261.herokuapp.com/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Playdate Friend Finder -->
+                    </div>
+                    <div class="column">
+                        <!-- Item -->
+                        <!-- Playdate Friend Finder -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Eat the Burger!</span>
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-burger.png"
+                                        alt="Playdate Friend Finder">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A burger logger utilizes <code>MySQL</code>, <code>Express</code>, and <code>Handlebars</code> to allow users to create, update, and read burgers from the database.
+
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">AJAX</a>
+                                            <a class="tag is-link">API</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">Express</a>
+                                            <a class="tag is-warning">ORM</a>
+                                            <a class="tag is-dark">MVC Framework</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/BurgerLogger-Node-Express-Handlebars" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://fierce-island-73401.herokuapp.com" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Playdate Friend Finder -->
+                    </div>
+                </div>
+
+
+                <!-- My recent work Line 1 -->
+                <br>
+                <br>
+                <!-- Featured project -->
+                <h2 class="subtitle has-text-weight-light has-text-centered">
+                    Command line interface (CLI) Apps
+                </h2>
+                <p class="has-text-weight-light has-text-centered">
+                    Screenshots and gifs showing the app working with no bugs could be found on GitHub pages.
+                </p>
+                <br>
+                <div class="columns">
+                    <div class="column">
+                        <!-- Bamazon -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Bamazon Amazon-Meme</span>
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-bamazon.gif" alt="Bamazon Amazon-Meme">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        An Amazon-like storefront node app taking in orders from customers and deplete
+                                        stock from the store's inventory
+                                        and allowing managers to view low inventory and add new product to the SQL
+                                        database
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">inquirer</a>
+                                            <a class="tag is-warning">MySQL</a>
+                                            <a class="tag is-danger">RegEx</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/bamazon" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+
+                            </footer>
+                        </div>
+                        <!-- End Bamazon -->
+                    </div>
+                    <div class="column">
+                        <!-- Item 2 -->
+                        <!-- Constructor-Word-Guess -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Constructor Word Guess</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-constructor-word-guess.gif"
+                                        alt="Constructor Word Guess">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A command-line (CLI) word guess game using constructor functions to create
+                                        objects representing each word to guess as well as each letter in each word,
+                                        and using the inquirer package to prompt the user to guess a letter
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-info">Object Constructors</a>
+                                            <a class="tag is-warning">Node Js</a>
+                                            <a class="tag is-warning">inquirer</a>
+                                            <a class="tag is-danger">RegEx</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/Constructor-Word-Guess" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+
+                            </footer>
+                        </div>
+                        <!-- End Constructor-Word-Guess -->
+
+                    </div>
+                    <div class="column">
+                        <!-- Item -->
+                        <!-- LIRI NODE APP -->
+                        <div class="card has-background-white-bis">
+                                <header class="card-header has-background-white-ter">
+                                    <h3 class="card-header-title">
+                                        <span>LIRI Node Application</span>
+
+                                    </h3>
+
+                                </header>
+                                <div class="card-content">
+                                    <figure class="image is-16by9">
+                                        <img class="launch-image-modal" src="assets/img/portfolio-liri-node-app.gif" alt="LIRI Node Application">
+                                    </figure>
+                                    <div class="content portfolio-content has-background-white-bis">
+                                        <p>
+                                            An interactive Node-based command-line (CLI) application that will search
+                                            Spotify for songs, Bands in Town for concerts, and OMDB for movies
+                                        </p>
+
+                                    </div>
+                                    <div class="field is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags">
+                                                <a class="tag is-info">JavaScript</a>
+                                                <a class="tag is-info">RESTful API</a>
+                                                <a class="tag is-info">AJAX</a>
+                                                <a class="tag is-warning">Node Js</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://github.com/keenwilson/liri-node-app" target="_blank" class="card-footer-item portfolio-link">
+                                        <p><i class="fab fa-github"></i> View Source</p>
+                                    </a>
+
+                                </footer>
+                            </div>
+                            <!-- End LIRI NODE APP -->
+                            
+                    </div>
+                    <!-- Item -->
+
+                </div>
+
+                <!-- My recent work Line 2 -->
+                <br>
+                <br>
+                <!-- Featured project -->
+                <h2 class="subtitle has-text-weight-light has-text-centered">
+                    Dynamic Browser-based Apps
+                </h2>
+                <p class="has-text-weight-light has-text-centered">
+                    Implementing JavaScript logic, user interface (UI) design, object-oriented programming (OOP), and state management
+                </p>
+                <br>
+                <div class="columns">
+                    <div class="column">
+                        <!-- Item 2 -->
+                        <!-- Rock-Paper-Scissors Multiplayer -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Rock-Paper-Scissors Multiplayer</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-rps-multiplayer.png" alt="Rock-Paper-Scissors Multiplayer">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        An online two-player Rock-Paper-Scissors game with the help of Firebase to
+                                        store and sync data between users and devices in realtime using a cloud-hosted,
+                                        NoSQL database
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+
+                                            <a class="tag is-success">Bulma</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">jQuery</a>
+                                            <a class="tag is-warning">Firebase</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/RPS-Multiplayer" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.github.io/RPS-Multiplayer/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Rock-Paper-Scissors Multiplayer -->
+
+                    </div>
+                    <div class="column">
+                        <!-- Item 3 -->
+                        <!-- Movies GIF-Tastic -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Movies GIF-Tastic</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-gif-tastic.png" alt="Movies GIF-Tastic">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A browser-based app shows the user GIPHY and OMDb results based on their search
+                                        term and make a dynamic web page that popultes with gifs and snippets of
+                                        information about the movie of their choice
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">jQuery</a>
+                                            <a class="tag is-link">AJAX</a>
+                                            <a class="tag is-warning">Firebase</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/giftastic" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.github.io/giftastic/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Movies GIF-Tastic -->
+                    </div>
+
+                </div> <!-- End Line 2 -->
+
+                <!--  My recent work Line 3 -->
+                <div class="columns">
+                    <div class="column">
+                        <!-- Item 1 -->
+                        <!-- Dog Trivia Game -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Dog Trivia Game</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-trivia-game.png" alt="Dog Trivia Game">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A dog-themed trivia game shows only one question until the player answers it or
+                                        their time runs out
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTM/CSSL</a>
+
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                            <a class="tag is-link">jQuery</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/TriviaGame" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.github.io/TriviaGame/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Dog Trivia Game -->
+
+                    </div>
+                    <div class="column">
+                        <!-- Item 2 -->
+                        <!-- Harry Potter RPG -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Harry Potter RPG</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-rpg-game.png" alt="Harry Potter RPG">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A fully functional browser-based role playing game that involved interface
+                                        design, state management -- keeping track of winning and losing stats,
+                                        determining win paths, and fun!
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/unit-4-game" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.github.io/unit-4-game/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Harry Potter RPG -->
+
+                    </div>
+                    <div class="column">
+                        <!-- Item 3 -->
+                        <!-- Destination Word Guess Game -->
+                        <div class="card has-background-white-bis">
+                            <header class="card-header has-background-white-ter">
+                                <h3 class="card-header-title">
+                                    <span>Travel Destination Word Guess Game</span>
+
+                                </h3>
+
+                            </header>
+                            <div class="card-content">
+                                <figure class="image is-16by9">
+                                    <img class="launch-image-modal" src="assets/img/portfolio-word-guess-game.png" alt="Destination Word Guess Game">
+                                </figure>
+                                <div class="content portfolio-content has-background-white-bis">
+                                    <p>
+                                        A word guess game with a travel destination theme that the user has to guess
+                                        country
+                                        names of destinations around the world
+                                    </p>
+
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">HTML/CSS</a>
+
+                                            <a class="tag is-success">Bootstrap</a>
+                                            <a class="tag is-info">JavaScript</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/keenwilson/Word-Guess-Game" target="_blank" class="card-footer-item portfolio-link">
+                                    <p><i class="fab fa-github"></i> View Source</p>
+                                </a>
+                                <a href="https://keenwilson.github.io/Word-Guess-Game/" target="_blank" class="card-footer-item portfolio-link">
+                                    Live Preview</a>
+                            </footer>
+                        </div>
+                        <!-- End Destination Word Guess Game -->
+
+                    </div>
+
+                </div> <!-- End Line 2 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Screenshot Modal -->
+    <div id="image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <p class="image">
+                <img id="portfolio-image-display" src="https://bulma.io/images/placeholders/480x320.png" alt="Placeholder Image">
+            </p>
+        </div>
+        <button class="modal-close is-large image-modal-close" aria-label="close"></button>
+    </div>
+
+    <!-- Contact Modal -->
+
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title form-content">Contact Me</p>
+                <button class="delete contact-modal-close" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <h3 class="subtitle has-text-weight-light">
+                    Thank you for taking your time to reach out. <br>
+                    What can I do for you today?
+                </h3>
+                <!-- Form -->
+                <form id="contact-form">
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <input type="hidden" name="contact_number">
+                                <p class="control is-expanded has-icons-left">
+                                    <input class="input form-content" type="text" name="user_name" placeholder="Name">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control is-expanded has-icons-left">
+                                    <input class="input form-content" type="email" name="user_email" placeholder="youremail@gmail.com">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea name="contact" class="textarea form-content" placeholder="Explain how I can help you"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <footer class="modal-card-foot">
+                <div class="field-body">
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" value="Send" class="button is-rounded send-message-modal-button">
+                                Send message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Keep in touch -->
+
+    <!-- Footer -->
+    <footer id="keep-in-touch" class="footer">
+        <div class="content has-text-centered has-background-cream">
+            <h1 class="title has-text-weight-light has-text-centered">
+                Keep in touch
+            </h1>
+            <h1 class='title'>
+                <a class="footer-link cIcons hvr-grow" href="https://www.google.com/search?q=kansas+city" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="subtitle is-6 has-text-weight-light has-text-centered hvr-grow">Kansas City</span></a>
+                <a class="footer-link cIcons hvr-grow" href="https://github.com/keenwilson" target="_blank"><i class="fab fa-github"></i>
+                    <span class="subtitle is-6 has-text-weight-light has-text-centered hvr-grow">Github</span></a>
+                <a class="footer-link cIcons hvr-grow" href="https://www.linkedin.com/in/keen-wilson" target="_blank"><i class="fab fa-linkedin"></i>
+                    <span class="subtitle is-6 has-text-weight-light has-text-centered hvr-grow">linkedin</span></a></a>
+                <a class="footer-link cIcons hvr-grow" href="https://twitter.com/keencwilson?lang=en" target="_blank"><i
+                        class="fab fa-twitter"></i>
+                        <span class="subtitle is-6 has-text-weight-light has-text-centered hvr-grow">Twitter</span></a></a>
+                <a class="footer-link cIcons hvr-grow" href="mailto:keencwilson@gmail.com" target="_blank"><i class="far fa-envelope"></i><br>
+                    <span class="subtitle is-6 has-text-weight-light has-text-centered hvr-grow">Email</span></a></a>
+            </h1>
+            <a href="https://bulma.io">
+                <img src="./assets/img/made-with-bulma--black.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+        </div>
+        <a href="#" class="sf-back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+
+
+
+    <!-- Link jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <!-- Link Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+    <!-- Link JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/typewriting.js"></script>
+    <script src="assets/javascript/scrollup.js"></script>
+    <script src="assets/javascript/navbar.js"></script>
+</body>
+
+</html>
