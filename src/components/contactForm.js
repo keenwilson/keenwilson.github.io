@@ -133,6 +133,9 @@ class ContactForm extends Component {
                           value={this.state.phoneNumber}
                           onChange={this.handleChange}
                         />
+                        <span className="icon is-small is-left">
+                          <i class="fas fa-phone" />
+                        </span>
                       </p>
                     </div>
                   </div>
