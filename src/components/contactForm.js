@@ -3,6 +3,7 @@ import fire from "../fire";
 
 class ContactForm extends Component {
   constructor(props) {
+    console.log(props);
     super(props);
     this.state = {
       name: "",
@@ -10,12 +11,13 @@ class ContactForm extends Component {
       phoneNumber: "",
       messageSubject: "",
       messageBody: "",
-      isSubmitted: false,
+      isSubmitted: props.messageSent,
       databaseMessage: ""
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.addMessage = this.addMessage.bind(this);
+    this.clearState = this.clearState.bind(this);
   }
 
   handleChange(e) {
@@ -41,6 +43,17 @@ class ContactForm extends Component {
       },
       () => this.addMessage()
     );
+    // this.props.onSubmit();
+  }
+
+  clearState() {
+    this.setState({
+      name: "",
+      email: "",
+      phoneNumber: "",
+      messageSubject: "",
+      messageBody: ""
+    }); // <- clear the input
   }
   componentWillMount() {
     /* Create reference to messages in Firebase Database */
@@ -64,15 +77,8 @@ class ContactForm extends Component {
       .database()
       .ref("messages")
       .push(this.state.databaseMessage);
-
-    this.setState({
-      name: "",
-      email: "",
-      phoneNumber: "",
-      messageSubject: "",
-      messageBody: ""
-    }); // <- clear the input
   }
+
   render() {
     return (
       <div className="columns">
@@ -198,9 +204,10 @@ class ContactForm extends Component {
           )}
           {this.state.isSubmitted === true && (
             <p className="subtitle">
-              Thank you for getting in touch. I appreciate you contacting me
-              about <strong>{this.state.messageSubject}</strong>.
-              <br /> I will reply by email as soon as possible.
+              {this.state.name}, <br />
+              <br /> Thank you for getting in touch. I appreciate you contacting
+              me about <strong>{this.state.messageSubject}</strong>. I will
+              reply by email as soon as possible.
               <br />
               <br />
               Talk to you soon,

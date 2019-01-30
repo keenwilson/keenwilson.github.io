@@ -12,24 +12,29 @@ class App extends Component {
     super(props);
     this.state = {
       showAbout: false,
-      showContact: true
+      messageSent: false
     };
     this.toggleAbout = this.toggleAbout.bind(this);
-    this.toggleContact = this.toggleContact.bind(this);
+    this.showContact = this.showContact.bind(this);
+    this.handleMessageSent = this.handleMessageSent.bind(this);
   }
 
   toggleAbout() {
     this.setState(prevState => ({
       showAbout: !prevState.showAbout
     }));
-    console.log("showAbout", this.state.showAbout);
   }
 
-  toggleContact() {
-    this.setState(prevState => ({
-      showContact: !prevState.showContact
-    }));
-    console.log("showContact", this.state.showContact);
+  showContact() {
+    this.setState({
+      messageSent: false
+    });
+  }
+
+  handleMessageSent() {
+    this.setState({
+      messageSent: true
+    });
   }
   render() {
     return (
@@ -38,7 +43,7 @@ class App extends Component {
           <div className="hero-head">
             <Header
               onAboutClick={this.toggleAbout}
-              onContactClick={this.toggleContact}
+              onContactClick={this.showContact}
             />
           </div>
 
@@ -56,7 +61,11 @@ class App extends Component {
           </div>
         </section>
         <div id="contact">
-          <Footer />
+          <Footer
+            key={this.state.messageSent}
+            messageSent={this.state.messageSent}
+            onSubmit={this.handleMessageSent}
+          />
         </div>
       </React.Fragment>
     );
