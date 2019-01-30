@@ -125,7 +125,7 @@ class ContactForm extends Component {
                 <div className="field-body">
                   <div className="field is-expanded">
                     <div className="field has-addons">
-                      <p className="control is-expanded">
+                      <p className="control is-expanded has-icons-left has-icons-right">
                         <input
                           className="input"
                           type="tel"
@@ -134,7 +134,7 @@ class ContactForm extends Component {
                           onChange={this.handleChange}
                         />
                         <span className="icon is-small is-left">
-                          <i class="fas fa-phone" />
+                          <i className="fas fa-phone" />
                         </span>
                       </p>
                     </div>

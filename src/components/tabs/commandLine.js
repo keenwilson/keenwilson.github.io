@@ -6,15 +6,15 @@ import LiriNode from "../portfolio/liriNode";
 const CommandLine = () => {
   return (
     <div className="container">
-      <h2 class="subtitle has-text-weight-light has-text-centered">
+      <h2 className="subtitle has-text-weight-light has-text-centered">
         Command line interface (CLI) Apps
       </h2>
-      <p class="has-text-weight-light has-text-centered">
+      <p className="has-text-weight-light has-text-centered">
         Screenshots and gifs showing the app working with no bugs could be found
         on GitHub pages.
       </p>
       <br />
-      <div class="columns">
+      <div className="columns">
         <Bamazon />
         <ConstructorWord />
         <LiriNode />

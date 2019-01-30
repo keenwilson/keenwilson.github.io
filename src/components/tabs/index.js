@@ -11,10 +11,12 @@ const Tabs = () => {
       <div className="tabs is-centered">
         <ul>
           <li>
-            <Link to="/frameworks">Front End Frameworks</Link>
+            <Link className="is-active" to="/frameworks">
+              JavaScript Frameworks
+            </Link>
           </li>
           <li>
-            <Link to="/fullstack">Full Stack Node.js/Express Apps</Link>
+            <Link to="/fullstack">Node.js/Express Apps</Link>
           </li>
           <li>
             <Link to="/web">Dynamic Browser Apps</Link>
@@ -30,6 +32,7 @@ const Tabs = () => {
         <Route path={"/frameworks"} component={Frameworks} />
         <Route path={"/web"} component={DynamicWeb} />
         <Route path={"/cli"} component={CommandLine} />
+        <Route path={"/"} component={Frameworks} />
       </Switch>
     </div>
   );
