@@ -6,9 +6,7 @@ const WhatsForDinner = () => {
       <div className="card has-background-white-bis">
         <header className="card-header has-background-white-ter">
           <h3 className="card-header-title">
-            <span>
-              <i className="far fa-star" /> What's For Dinner?
-            </span>
+            <span>What's For Dinner?</span>
           </h3>
         </header>
         <div className="card-content">

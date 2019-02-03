@@ -6,9 +6,7 @@ const ReactMaliThaiBistro = () => {
       <div className="card has-background-white-bis">
         <header className="card-header has-background-white-ter">
           <h3 className="card-header-title">
-            <span>
-              <i className="far fa-star" /> Mali Thai Bistro
-            </span>
+            <span>Mali Thai Bistro</span>
           </h3>
         </header>
         <div className="card-content">

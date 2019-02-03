@@ -42,8 +42,9 @@ const GoogleBooksSearch = () => {
                 <div className="tag is-warning">Express Js</div>
                 <div className="tag is-link">MongoDB</div>
                 <div className="tag is-link">Mongoose</div>
-                <div className="tag is-link">Sequelize</div>
                 <div className="tag is-danger">Axios</div>
+                <div className="tag is-dark">HTTP Services</div>
+                <div className="tag is-dark">RESTful API</div>
               </div>
             </div>
           </div>

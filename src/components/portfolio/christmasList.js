@@ -6,9 +6,7 @@ const ChristmasList = () => {
       <div className="card has-background-white-bis">
         <header className="card-header has-background-white-ter">
           <h3 className="card-header-title">
-            <span>
-              <i className="far fa-star" /> Christmas List
-            </span>
+            <span>Christmas List</span>
           </h3>
         </header>
         <div className="card-content">
