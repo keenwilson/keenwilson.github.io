@@ -6,9 +6,7 @@ const AbacusClassRecord = () => {
       <div className="card has-background-white-bis">
         <header className="card-header has-background-white-ter">
           <h3 className="card-header-title">
-            <span>
-              <i className="far fa-star" /> Abacus Class Record
-            </span>
+            <span>Abacus Class Record</span>
           </h3>
         </header>
         <div className="card-content">
