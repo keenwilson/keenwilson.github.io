@@ -53,7 +53,7 @@ const ReactMaliThaiBistro = () => {
             </p>
           </a>
           <a
-            href="https://keenwilson.com/react-malithaibistro/"
+            href="https://malithaibistro.com"
             target="_blank"
             rel="noopener noreferrer"
             className="card-footer-item portfolio-link"

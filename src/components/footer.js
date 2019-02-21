@@ -50,7 +50,7 @@ class Footer extends Component {
             </a>
             <a
               className="footer-link cIcons hvr-grow"
-              href="https://www.linkedin.com/in/keen-wilson"
+              href="https://www.linkedin.com/in/keenwilson"
               target="_blank"
               rel="noopener noreferrer"
             >
